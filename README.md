@@ -1,3 +1,1 @@
-# FirstRepo
-# hello.c
 
