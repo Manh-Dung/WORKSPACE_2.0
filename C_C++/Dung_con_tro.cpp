@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
  
 void addOne(int *ptr)
@@ -18,19 +18,19 @@ int main()
     return 0;
 }
 
-												Cach khac dung tham chieu : */
- #include <stdio.h>
- 
-void addOne(int ptr) 					
-{
-    ptr++;
-}
- 
-int main()
-{
-	int p = 10 ;	  
-    addOne(p);
-    printf("%d\n", p); 
-    return 0;
-}
+												/*Cach khac dung tham chieu : */
+// #include <stdio.h>
+// 
+//void addOne(int &ptr) 					
+//{
+//    ptr++;
+//}
+// 
+//int main()
+//{
+//	int p = 10 ;	  
+//    addOne(p);
+//    printf("%d\n", p); 
+//    return 0;
+//}
 
