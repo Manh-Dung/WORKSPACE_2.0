@@ -20,17 +20,16 @@ int main()
 
 												/*Cach khac dung tham chieu : */
 // #include <stdio.h>
-// 
-//void addOne(int &ptr) 					
-//{
+
+// void addOne(int &ptr) 					// Truyen dia chi cua p cho ptr bang cach su dung dau &
+// {
 //    ptr++;
-//}
-// 
-//int main()
-//{
-//	int p = 10 ;	  
+// }
+
+// int main()
+// {
+// 	int p = 10 ;	  
 //    addOne(p);
 //    printf("%d\n", p); 
 //    return 0;
-//}
-
+// }

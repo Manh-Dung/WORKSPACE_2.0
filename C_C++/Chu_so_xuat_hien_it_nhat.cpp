@@ -37,7 +37,7 @@ void demchuso(int a[], int n, int b[])
 		int temp = abs (a[i]);
 		while (temp != 0 )
 		{
-			int chuso = temp % 10; 								// BIEN chuso CHI TON TAI TRONG HAM NAY
+			int chuso = temp % 10;
 			temp /= 10 ;
 			b[chuso]++;
 		}
