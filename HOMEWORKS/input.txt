@@ -1,0 +1,2 @@
+2 4 2
+Dự đoán đáp án: Chương trình có nghiệm kép = -1.
