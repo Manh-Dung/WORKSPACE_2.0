@@ -1,5 +1,5 @@
 {
-    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.errorSquiggles": "Disabled",
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin"
 }
