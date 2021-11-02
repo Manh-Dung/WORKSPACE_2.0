@@ -2,7 +2,7 @@
  
  
 // Tham so dau vao la 2 bien con tro kieu int
-void swap(int *a, int *b){						// int *a = &a;  int *b = &b;
+void swap(int *a, int *b){						
     // dung * de lay gia tri cua bien ma con tro dang tro toi
     printf("Ham con, truoc khi goi ham hoan vi, a = %d, b = %d\n", *a , *b);
     // dung * de lay gia tri cua bien ma con tro dang tro toi va gan cho bien `tmp`
