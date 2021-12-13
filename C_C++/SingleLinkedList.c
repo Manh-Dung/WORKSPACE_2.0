@@ -149,12 +149,28 @@ void output(node head){
     }
 }
 
+node sort(node head){
+    node temp1;
+    node temp2;
+    for (temp1 = head; temp1 != NULL; temp1 = temp1->next){
+        for (temp2 = temp1->next; temp2 != NULL; temp2 = temp2->next){
+            if (temp1->data > temp2->data){
+                int temp = temp1->data;
+                temp1->data = temp2->data;
+                temp2->data = temp;
+            }
+        }
+    }
+    return head;
+}
+
 int main(){
     node head;
     head = init();
     head = input(head);
     output(head);
 
-    head = delByVal(head, 4);
+    // head = delByVal(head, 4);
+    head = sort(head);
     output(head);
 }
