@@ -25,4 +25,5 @@ int main(){
     // Dung & de lay dia chi cua bien.
     swap(&a, &b);
     printf("Ham main, sau khi goi ham hoan vi, a = %d, b = %d\n", a , b);
+    
 }
