@@ -9,6 +9,13 @@
             "name": "Launch test",
             "request": "launch",
             "mainClass": "test",
+            "projectName": "WORKSPACE_2.0_120b2249"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
             "projectName": "WORKSPACE_2.0_d13a579a"
         },
         {
